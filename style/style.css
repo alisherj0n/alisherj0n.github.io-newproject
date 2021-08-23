@@ -2,6 +2,7 @@ body,html{
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     margin: 17px 144px;
+
 }
 
 .header{
@@ -94,8 +95,9 @@ color: black;
 }
 
 .button{
-    display: inline;
-    margin-left: 0px auto;
+    display: inline-block;
+    margin: 0px 150px;
+    
 }
 
 .main-container button{
@@ -104,8 +106,30 @@ color: black;
     border: none;
     height: 47.97px;
     width: 164.2px;
+    cursor: pointer;
+    margin: 20px 550px;
 }
 
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    border-top: solid #333333 1px;
+    margin: 10px 0px;
+}
+
+.footer1{
+    display: block;
+}
+
+.linebreak{
+    display: block;
+}
+
+.social{
+    display: block;
+}
 
 
 
@@ -131,7 +155,7 @@ color: black;
 }
 
 .box6{
-    background-image: url(../images/5.jpg);
+    background-image: url(../images/6.jpg);
 }
 
 .box7{
