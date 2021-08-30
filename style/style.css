@@ -24,12 +24,14 @@ text-decoration: underline;
 
 .header-links{
     margin-right: 155px;
+    margin-top: -5px;
 }
 
 .header-links a{
 text-decoration: none;
 margin-left: 33px;
 color: black;
+font-size: 16px;
 }
 
 .header-links a:hover{
@@ -55,7 +57,7 @@ color: black;
 }
 
 .main-container h1{
-    margin-top: 65px;
+    margin-top: 69px;
     font-size: 2.2rem;
 }
 
@@ -67,11 +69,21 @@ color: black;
 .inner-links a{
     color: black;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 35px;
+    font-size: 15px;
+}
+
+.inner-links a:hover{
+    text-decoration: underline;
 }
 
 .inner-links{
-    margin-top: 45px;
+    margin-top: 43px;
+}
+
+.inner-links >:first-of-type{
+text-decoration: underline;
+    
 }
 
 .main-blocks{
@@ -79,6 +91,7 @@ color: black;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: -1.3em;
 
 
 }
@@ -95,28 +108,32 @@ color: black;
 }
 
 .button{
-    display: inline-block;
-    margin: 0px 150px;
+    display: flex;
+    justify-content: center;
+    margin: 4.2em auto;
     
 }
 
-.main-container button{
+.button button{
     background-color: black;
     color: #fff;
     border: none;
     height: 47.97px;
     width: 164.2px;
     cursor: pointer;
-    margin: 20px 550px;
+
 }
 
 .footer{
+
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    border-top: solid #333333 1px;
-    margin: 10px 0px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: flex-start;
+    border-top: solid #e5e5e5 .1px;
+    padding: 75px 0px 11px;
 }
 
 .footer1{
@@ -130,7 +147,6 @@ color: black;
 .social{
     display: block;
 }
-
 
 
 .box1{
