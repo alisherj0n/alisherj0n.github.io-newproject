@@ -23,13 +23,13 @@ text-decoration: underline;
 }
 
 .header-links{
-    margin-right: 155px;
+    margin-right: 170px;
     margin-top: -5px;
 }
 
 .header-links a{
 text-decoration: none;
-margin-left: 33px;
+margin-left: 30px;
 color: black;
 font-size: 16px;
 }
@@ -57,8 +57,8 @@ font-size: 16px;
 }
 
 .main-container h1{
-    margin-top: 69px;
     font-size: 2.2rem;
+    margin-top: 20px;
 }
 
 .linebreak{
@@ -136,6 +136,7 @@ text-decoration: underline;
     padding: 75px 0px 11px;
 }
 
+
 .footer1{
     display: block;
 }
@@ -147,6 +148,39 @@ text-decoration: underline;
 .social{
     display: block;
 }
+
+.footer h1{
+
+    margin: 4px 0px;
+}
+
+.footer1{
+    margin: 0px 0px 64px;
+}
+
+.footer1 a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer1 >:first-of-type{
+    margin-bottom: 8px;
+}
+
+.footer1 a:hover{
+   text-decoration: underline;
+}
+
+.footer2{
+    margin: 0px 0px 64px;
+
+}
+
+.footer3{
+    margin: 0px 0px 64px;
+}
+
 
 
 .box1{
